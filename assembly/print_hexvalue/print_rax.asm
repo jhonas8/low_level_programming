@@ -29,7 +29,7 @@ _start:
 		POP rcx
 		POP rax
 
-		TEST rcx,rcx
+		TEST rcx,rcx ;;Easy test if it's zero
 		JNZ .loop
 
 	;;Print a blank space and a line-break after printing each char
