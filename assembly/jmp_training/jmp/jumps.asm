@@ -7,7 +7,6 @@ SECTION .text
 GLOBAL _start
 _start: 
 	MOV RAX, 40 
-	PUSH RAX 
 	CMP RAX,subtract
 	
 	JA print_less
